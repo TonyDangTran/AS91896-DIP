@@ -119,7 +119,7 @@ def instructions():
     global instructions_repeat
     while instructions_repeat != "YES":
         if instructions_repeat == "NO":
-            print("Goodbye, {}!" .format(name))
+            print("Goodbye, {}!" .format(name.capitalize()))
             time.sleep(1)
             exit()
         else:
